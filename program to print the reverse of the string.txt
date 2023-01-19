@@ -1,0 +1,9 @@
+#program to print the reverse pattern of the string
+s=input()
+l=len(s)
+for i in range(0,l+1):
+    for j in range(0,l):
+        print(s[j],end='')
+    l=l-1
+    print()
+        
